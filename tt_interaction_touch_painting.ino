@@ -54,7 +54,7 @@ void setup() {
 void loop() {
   if (analogRead(A1) > 100)
   {
-    mp3.setVolume(25);
+    mp3.setVolume(28);
     if (!isPlaying)
     {
       int song = random(1,3);
